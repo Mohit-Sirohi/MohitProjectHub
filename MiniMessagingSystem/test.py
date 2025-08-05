@@ -1,0 +1,25 @@
+from profiles import*
+from auth import*
+from message import*
+
+register('mohitsirohi',2512)
+register('pavansirohi',2512)
+register('saniasirohi',2512)
+login('mohitsirohi',2512)
+login('saniasirohi',2512)
+login('pavansirohi',2512)
+profile_set('mohitsirohi','mohit',17,'KPS')
+profile_set('saniasirohi','sania',17,'KPS')
+profile_set('pavansirohi','pavan',17,'KPS')
+# profile_edit('mohitsieohi2008',000,'name','sirohi')
+# profile_edit('MohitSirohi2008',000,'name','sirohi')
+# profile_edit('MohitSirohi2008',2512,'name','sirohi')
+# # logout('as',000)
+# # logout('MohitSirohi2008',000)
+# logout('MohitSirohi2008',2512)
+# delete_profile('MohitSirohi2008',2512)
+sent_message('mohitsirohi','saniasirohi','hello')
+sent_message('mohitsirohi','saniasirohi','bye')
+sent_message('mohitsirohi','pavansirohi','bye')
+sent_message('saniasirohi','pavansirohi','bye')
+view_messages('mohitsirohi','pavansirohi')

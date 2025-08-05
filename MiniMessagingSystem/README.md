@@ -1,28 +1,74 @@
-# Mini Messaging System
+# Basic Messaging System
 
-A simple Python application that allows users to send and receive messages within a local environment.
+This project is a simple command-line based messaging application built in Python. It allows users to register, login, manage their profiles, send messages, and view messages with other users.
 
 ## Features
 
-- Register users with age and number
-- View user profiles (age, number, or all details)
-- Send messages between registered users
-- View all messages sent from one user to another
+- **User Authentication**: Register new users, login, and logout functionality.
+- **Profile Management**: Create, edit, and delete user profiles with name, age, and school information.
+- **Messaging**: Send messages to other users and view received messages.
+- **Interactive CLI**: User-friendly command-line interface for all operations.
 
-## How to Run
+## Getting Started
 
-1. Make sure Python 3 is installed on your system.
-2. Download or clone this repository.
-3. Open a terminal and navigate to the `MiniMessagingSystem` folder.
-4. Run the script:
+### Prerequisites
 
-   ```
-   python mini_messaging.py
-   ```
+- Python 3.x installed on your machine.
 
-5. The script demonstrates registration and messaging with example users.  
-   *(To make it interactive, you can add input prompts as in your Contact Book project.)*
+### Installation
 
----
+1. Clone the repository:
 
-Made by Mohit Sirohi
+    ```bash
+    git clone https://github.com/Mohit-Sirohi/MohitProjectHub.git
+    cd MohitProjectHub
+    ```
+
+2. Make sure all `.py` files (`main.py`, `auth.py`, `profiles.py`, `message.py`) are in the project directory.
+
+### Running the Project
+
+Run the main program:
+
+```bash
+python main.py
+```
+
+Follow the on-screen instructions to register, manage your profile, and send/view messages.
+
+## File Structure
+
+- `main.py`: Main program with the interactive interface.
+- `auth.py`: Handles user registration, login, and logout.
+- `profiles.py`: Functions to create, edit, and delete user profiles.
+- `message.py`: Functions to send and view messages.
+
+## Usage
+
+When you run the program, you will see a menu:
+
+- **a.** Login, Register or Logout
+- **b.** Create profile, Edit profile or Delete profile
+- **c.** Send message or View message
+
+Choose an option by entering the corresponding letter, and follow the prompts.
+
+## Example Workflow
+
+1. Register a new user.
+2. Login as the registered user.
+3. Create a profile.
+4. Send messages to other users.
+5. View received messages.
+
+## Contributing
+
+Contributions are welcome! Please open issues or submit pull requests for improvements or bug fixes.
+
+## License
+
+This project is licensed under the MIT License.
+
+## Author
+
+- [Mohit Sirohi](https://github.com/Mohit-Sirohi)
